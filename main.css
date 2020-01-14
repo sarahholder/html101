@@ -1,5 +1,5 @@
 body {
-background-image: https://cdn.pocket-lint.com/r/s/970x/assets/images/147767-tv-feature-what-order-should-you-watch-all-the-star-wars-films-image1-1wdfjceytb.jpg?v1;
+background-image: "https://cdn.pocket-lint.com/r/s/970x/assets/images/147767-tv-feature-what-order-should-you-watch-all-the-star-wars-films-image1-1wdfjceytb.jpg?v1">;
 background-color: red;
 text-align: center;
 clear: both;
@@ -42,6 +42,7 @@ li a{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none; 
+    text-transform: uppercase;
     
 }
 li a:hover{
@@ -57,11 +58,11 @@ h1 {
     min-height:700px;
     max-height: 700px;
     float: left; 
-    padding-top: 10px;  
-    padding-bottom: 10px;
+    padding: 10px 10px;
     margin-bottom: 50px;
     margin-left: 10px;
     margin-right: 10px;
+
 }   
 p{
     padding-bottom:20px;
